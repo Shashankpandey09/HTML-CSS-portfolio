@@ -1,0 +1,141 @@
+#background{
+    background-image:linear-gradient(to right,
+    #000428, #004e92);
+    background-size:105px ;
+}
+
+.c1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Sacramento", cursive;
+    
+    text-align: center; }
+.im1{
+width: 60%;
+padding: 0;
+}
+h1 {
+font-size:2rem;
+background: -webkit-linear-gradient( grey,seagreen);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;  
+text-shadow: 2px 2px #0077b6
+}
+.im{
+    display: flex;
+    justify-content: center;
+     margin-top: ;
+
+     
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.c{
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.img{
+    background-image: url(./Screenshot\ \(83\).png);
+    width:180px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+   
+     border-radius: 50%;
+     background-position: top;
+}
+#hero{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 20px;
+   
+}
+#skills{
+    color: aliceblue
+
+}
+.text{
+    text-align: center;
+}
+.we{
+    width:20rem;
+    margin-right: 20px;
+    float: left;
+    border-radius: 10%;   
+}
+.s{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    min-height: 300px;
+
+}
+h3,p{
+    
+    
+    margin: 0px;
+    padding-left:0px;
+}
+.sk{
+    padding-top: 50px;
+    text-align: center;
+}
+@media(max-width:680px){
+    .web{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+
+    }
+    .we{
+        width:80%;
+        height: 80%;
+    
+    }
+    .hot1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+
+    }
+  .hot{
+   
+    display: flex;
+    align-items: center !important;
+  }
+  .bc{
+    text-align:center;
+}
+}
+.hot{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  
+    position: relative;
+    right: 2%;
+}
+.henry{
+    float: left;
+    width:20rem;
+    margin-right:20px;
+    border-radius: 10%;
+}
